@@ -1,6 +1,6 @@
 # MECES-VLMA
 
-Jiaxin Chen, Jiawen Peng, Yanzuo Lu, Jian-Huang Lai, Andy J. Ma, “Vision-Language Adaptive Clustering and Meta-Adaptation for Unsupervised Few-Shot \\ Action Recognition,” in TCSVT 2024, under review.
+Jiaxin Chen, Jiawen Peng, Yanzuo Lu, Jian-Huang Lai, Andy J. Ma, “Vision-Language Adaptive Clustering and Meta-Adaptation for Unsupervised Few-Shot Action Recognition,” in TCSVT 2024, under review.
 
 Unsupervised few-shot action recognition is a practical but challenging task, which adapts knowledge learned from unlabeled videos to novel action classes with only limited labeled data. 
 Without annotated data of base action classes for meta-learning, it cannot achieve satisfactory performance due to poor pre-trained models.
@@ -23,9 +23,7 @@ python3 and torch1.8
 
 - backbone: To save the trained models.
 - config: The configuration file.
-- method: The data sets, such as MiniImageNet, Omniglot, CIFAR-FS, FC-100.
-- model: The main files of the code, including the dataset and MECES-VLMA models.
-- trainer: 
+- method: The main files of the code, including the dataset and MECES-VLMA models.
 - utils: 
 - vcache:
 - main.py: Program entrance.
